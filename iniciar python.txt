@@ -1,0 +1,21 @@
+para sitio web
+$ python -m venv venv
+$ .\venv\Scripts\activate
+$ pip install flask
+$ pip install Flask-PyMongo
+$ pip install python-dotenv
+para app de escritorio
+$ python -m venv venv
+$ .\venv\Scripts\activate
+//con esto genero el archivo que guarda las dependencias se genera al ultimo
+python -m pip freeze > requirements.txt 
+// instalando dep de MYSQL
+python -m pip install mysql-connector-python
+
+// instalo para exportar xslx
+
+python -m pip install openpyxl
+
+
+// crear executable
+pyinstaller --onefile main.py
